@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0058/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0058/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 無上大乘要訣妙經
+  date: '2015-08-28 23:35:27.723874'
+  source:
+    repository: kanripo
+    path: KR5a0058
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0058_000-HFL.yaml, hash: 'sha256:031470d559cb6ed659c482e89d5927fa898c9692a334b6abf0bbdb11941b638a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0058_000-HFL.markers.yaml, hash: 'sha256:2fd1f7ef93c3237a4c70897ed1f2b468e89b3652ecb036ca802cf9f36aab5e1b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0058_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3346
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:68948d3a66cf94799e5b49ebb78de60b60cf62317614efd498054746f4539bf8
